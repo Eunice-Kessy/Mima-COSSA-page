@@ -1,0 +1,140 @@
+; @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* SIDE NAVIGGATION BAR */
+.sidenav {
+  height: 90rem;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 50px 0;
+  background-color: #050341;
+}
+.wrapper {
+  padding-bottom: 50px;
+}
+.inner-wrapper {
+  padding-top: 5px;
+  align-items: center;
+  padding-left: 25px;
+}
+.logo-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-head > img {
+  width: 60px;
+}
+.head-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 0px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  display: block;
+  background: color #c7c7c9;
+  margin: 10px auto;
+  color: #050341;
+}
+
+.sidenav a:hover {
+  background-color: #d7d7e7;
+}
+.cossa-heading {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: -4.7rem;
+}
+.cossa-para {
+  font-family: sans-serif;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-top: 1px;
+}
+.side-container {
+  width: 400px;
+  height: 50px;
+  background-color: #e0dddd;
+  margin: 10px 0px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.side-container .side-con {
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  padding: 15px;
+}
+
+/*SIDE BAR ENDS*/
+
+/* MAIN PAGE CONTENT*/
+.main {
+  margin-left: 17.51rem;
+  padding: 0px 10px 0px 20px;
+  /* background-color: #d7d7e7; */
+}
+/* NAVIGATION BAR*/
+.navbar {
+  width: 100%;
+  overflow: auto;
+  padding: 20px;
+  text-align: center;
+}
+/* Navbar links */
+.navbar a {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: rgb(210, 205, 231);
+}
+
+/* SLIDER BANNER*/
+.banner-img {
+  height: 500px;
+  width: 100%;
+}
+/*END OF BANNER SLIDER*/
+
+/*RESEARCH CLUB STYLING & Activities styling*/
+.slider {
+  width: 76.2rem;
+  min-height: 800px;
+  margin: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.slider .slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slider .slide img {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}

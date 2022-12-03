@@ -1,0 +1,215 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inder&family=Inter:wght@500&family=Outfit:wght@200;500&display=swap'); 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* SIDE NAVIGGATION BAR */
+  .sidenav {
+    height: 90rem;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 50px 0;
+    background-color: #050341;
+  }
+  .wrapper {
+    padding-bottom: 50px;
+  }
+  .inner-wrapper {
+    padding-top: 5px;
+    align-items: center;
+    padding-left: 25px;
+  }
+  .logo-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-head > img {
+    width: 60px;
+  }
+  .head-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 0px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    background: color #c7c7c9;
+    margin: 10px auto;
+    color: #050341;
+  }
+  
+  .sidenav a:hover {
+    background-color: #d7d7e7;
+  }
+  .cossa-heading {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    margin-left: -4.7rem;
+  }
+  .cossa-para {
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: -72px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-top: 1px;
+  }
+  .side-container {
+    width: 400px;
+    height: 50px;
+    background-color: #e0dddd;
+    margin: 10px 0px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .side-container .side-con {
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    padding: 15px;
+  }
+  
+  /*SIDE BAR ENDS*/
+
+
+/* PAYMENT PAGE */
+
+.paysearch-container {
+  display: flex;
+  position: relative;
+  left: 18rem;
+  margin: 5rem;
+  width: 69em;
+  height: 3rem;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.paysearch-container img {
+  display: flex;
+  position: relative;
+  left: 55rem;
+  width: 38px;
+  height: 38px;
+  margin-top: 5px;
+}
+
+.paybox-container {
+  display: flex;
+  position: relative;
+  left: 13.7rem;
+  margin: 3rem;
+  width: 38rem;
+  height: 3rem;
+  background-color: #d7d7e7;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+  border-radius: 2px;
+  justify-content: center;
+}
+.name-container,
+p {
+  margin-top: 0.8rem;
+  margin-left: 56rem;
+}
+
+.payment-container,
+h3 {
+  display: flex;
+  position: relative;
+  gap: 48rem;
+  left: 12rem;
+  margin: 10px;
+  font-family: 'Inder', sans-serif;
+}
+
+.paydetails-container,
+p {
+  margin-top: 50px;
+  padding-left: 5rem;
+  margin-left: 20rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.line-wrapper {
+  margin-top: -10px;
+  margin-left: 26rem;
+  width: 70px;
+  height: 3px;
+  background-color: rgb(221, 221, 221);
+}
+
+.input-container {
+  width: 20rem;
+  height: 2.9rem;
+  margin-left: 37rem;
+  margin-top: -27px;
+  border-radius: 10px;
+  background-color: #c7c7c9;
+}
+
+.tran-container {
+  display: flex;
+  position: relative;
+  left: 12rem;
+  margin: 4rem;
+  width: 38rem;
+  height: 3rem;
+  background-color: #d7d7e7;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+  border-radius: 2px;
+  justify-content: center;
+}
+
+.tran-container,
+p {
+  margin-top: 12.5px;
+  margin-left: 7rem;
+}
+
+.tranhis-container {
+  font-size: 1.2rem;
+  font-style: normal;
+}
+
+.trans-wrapper a {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  color: rgb(183, 183, 183);
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #050341;
+  color: #fff;
+  margin: 15px;
+}
+
+.next-container {
+  display: flex;
+  position: relative;
+  left: 52rem;
+  border: 5px;
+  margin-top: 50px;
+}
+/* END OF PAYMENT PAGE STYLING*/
