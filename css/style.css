@@ -1,0 +1,246 @@
+; @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@100&display=swap");
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.headings{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.learn-more{
+  width: 100px;
+  height: 50px;
+  border: 1px solid #050341;
+  border-radius: 40px;
+  padding: 10px;
+  text-decoration: none;
+}
+.learn-more:hover{
+  background-color: #050341;
+  color: #fff;
+}
+
+/* SIDE NAVIGGATION BAR */
+.sidenav {
+  height: 90rem;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 50px 0;
+  background-color: #050341;
+}
+.wrapper {
+  padding-bottom: 50px;
+}
+.inner-wrapper {
+  padding-top: 5px;
+  align-items: center;
+  padding-left: 25px;
+}
+.logo-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-head > img {
+  width: 60px;
+}
+.head-title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px 0px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-family: "Inter", sans-serif;
+  display: block;
+  background: color #c7c7c9;
+  margin: 10px auto;
+  color: #050341;
+}
+
+.sidenav a:hover {
+  background-color: #d7d7e7;
+}
+.cossa-heading {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: -4.7rem;
+}
+.cossa-para {
+  font-family: sans-serif;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-top: 1px;
+}
+.side-container {
+  width: 400px;
+  height: 50px;
+  background-color: #e0dddd;
+  margin: 10px 0px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.side-container .side-con {
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  padding: 15px;
+}
+
+/*SIDE BAR ENDS*/
+
+/* MAIN PAGE CONTENT*/
+.main {
+  margin-left: 17.51rem;
+  padding: 0px 10px 0px 20px;
+  z-index: 1;
+}
+/* NAVIGATION BAR*/
+.navbar {
+  width: 100%;
+  overflow: auto;
+  padding: 20px;
+  text-align: center;
+}
+/* Navbar links */
+.navbar a {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: rgb(210, 205, 231);
+}
+
+/* MAIN BANNER */
+.banner-container{
+  width: 100%;
+}
+.banner-img{
+  height: 400px;
+  width: 100%;
+}
+
+/*RESEARCH CLUB STYLING*/
+.slideshow-container{
+  position: relative;
+  max-width: 100%;
+}
+.slide img{
+  width: 100%;
+  height: 600px;
+}
+.effect{
+  animation-name: effect;
+  animation-duration: 1s;
+}
+@keyframes effect {
+  from{
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.active{
+  background-color: black;
+}
+span{
+  background-color: #bbb;
+  color: aliceblue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.6s linear;
+  margin: 0px 2px;
+  padding: 3px 0px;
+}
+.dot-wrapper{
+  text-align: center;
+} 
+/* END OF RESEARCH SLIDER BANNER */
+
+/* ABOUT US STYLING */
+.about-container{
+  height: 200px;
+  width: 100%;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* OUR ACTIVITIES */
+.activities-grid-con, .award-container{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  padding: 20px;
+}
+.activ-container{
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+}
+.grid-img, .award-img{
+ height: 400px;
+ width: 600px;
+ object-fit: cover;
+ border-radius: 10px;
+}
+/* END OF ACTIVITIES STYLING */
+
+/* AWARDS STYLING */
+.award-container{
+  justify-content: space-between;
+}
+.award-text{
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.scroll-to-top{
+  background-color: #050341;
+  border-radius: 50%;
+  bottom: 20px;
+  font-size: 1rem;
+  height: 30px;
+  width: 30px;
+  opacity: 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 1000;
+  transition: all 0.1s ease-in-out;
+  padding: 10px;
+  margin: 20px;
+  color: #fff;
+}
+.scroll-to-top:hover{
+  background-color: #fff;
+  color: #050341;
+}
+
+.scroll-to-top.visible{
+  opacity: 1;
+}

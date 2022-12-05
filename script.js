@@ -1,16 +1,26 @@
 // slider
-const prevBtn = document.querySelector(".prev");
-const nextBtn = document.querySelector(".mext");
-const slides = document.querySelectorAll("slide");
-const numberOfSlides = slides.length;
-let slideNumber = 0
+let slideIndex = 0;
+showSliders();
 
-nextBtn.addEventListener("click", () => {
-    slideNumber++;
+function showSliders(){
+    let i;
+    const  slides = document.getElementsByClassName("slide");
+    const dots = document.getElementsByTagName("span");
 
-    if(slideNumber > (numberOfSlides - 1)){
-        slideNumber = 0;
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
-    slides[slideNumber].classList.add('active');
-});
 
+    slideIndex = slideIndex + 1;
+    if(slideIndex > slides.length){
+        slideIndex = 1;
+    }
+    for(i=0; i<dots.length; i++){
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSliders, 3000);
+}
